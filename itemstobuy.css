@@ -1,0 +1,141 @@
+body{
+  background-color:#999696;
+}
+
+.navbar{
+  overflow: auto;
+  position: fixed;
+  margin-bottom: 20px;
+  background-color: #999696;
+  padding: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+
+input{
+  display: block;
+  float: left;
+  margin: 7px 20px 7px 7px;
+  padding:5px 16px;
+  border-radius: 10px;
+}
+
+.searchIcon{
+  margin-top: 10px;
+  padding: 0;
+}
+
+.navbar a{
+  display: block;
+  border-radius: 10px;
+  float: left;
+  margin: 0 20px 0 0;
+  padding:14px 16px;
+  color: black;
+  font-size: 14px;
+  font-family: 'Noto Sans Mono', monospace;
+  text-decoration: none;
+  transition: border-radius, background-color 1s;
+}
+
+.button1{
+  height: 40px;
+}
+
+.button1 span{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.left{
+  float: right;
+  margin: 10px 20px;
+  padding: 0 20px;
+}
+
+a:hover{
+  color: black;
+  background-color: white ;
+  border-radius: 10px;
+}
+
+.navbar img{
+  width: 40px;
+  height: 40px;
+}
+
+.main{
+  margin-top: 60px;
+}
+h1{
+  diplay: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+.btn{
+ text-decoration: none;
+}
+
+.allItems{
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0;
+  flex-wrap: wrap;
+}
+
+
+.singleItems{
+  margin: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  padding: 0 30px;
+  box-sizing: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.singleItems:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.description{
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.description h3{
+  font-family: 'IM Fell English SC', serif;
+}
+
+.singleItems img{
+  width: 320px;
+  height: 320px;
+}
+
+.description button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: #d4cfcf;
+}
+
+
+
+
+.footer{
+  width: 100%;
+  display: block;
+  float: left;
+  background-color: #ababab ;
+}
+
+.footer a{
+  text-decoration: none;
+  float: right;
+  color: black;
+  margin: 10px 10px;
+}

@@ -1,0 +1,88 @@
+.navbar{
+  overflow: auto;
+  position: fixed;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar a{
+  display: block;
+  border-radius: 10px;
+  float: left;
+  margin: 0 20px 0 0;
+  padding:14px 16px;
+  color: black;
+  font-size: 14px;
+  font-family: 'Noto Sans Mono', monospace;
+  transition: border-radius, background-color 1s;
+}
+
+.button1{
+  height: 40px;
+  text-decoration: none;
+}
+
+.button1 span{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.left{
+  float: right;
+  margin: 10px 20px;
+  padding: 0 10px;
+}
+
+a:hover{
+  color: black;
+  background-color: white ;
+}
+
+.navbar img{
+  width: 40px;
+  height: 40px;
+}
+
+.signUp{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.bg-img{
+  background-image: url("sign in.jfif");
+  /* Full height */
+  height: 800px;;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.signUp-form {
+  position: absolute;
+  margin: 70px 600px;
+  display: block;
+  max-width: 800px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid black;
+
+}
+
+input[type=text], input[type=password]{
+  display: block;
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+button{
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #992323;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign up form</title>
+    <link rel="stylesheet" type= "text/css" href="subscribe.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Indie+Flower&family=Noto+Sans+Mono&family=Prompt:wght@600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <nav class="navbar">
+        <div class="brand">
+          <a><img src="LogoN.png"></a>
+          <a class="button1" href="index.html"><span>Heart to Heart</span></a>
+        </div>
+        <div class="left">
+          <a href="signIn.html">Already Have an account</a>
+          <a href="signIn.html">Sign in</a>
+        </div>
+      </nav>
+    </section>
+
+
+    <section class="signUp">
+      <div class="bg-img">
+        <form class="signUp-form" action="index.html">
+          <h1>Sign Up form</h1>
+
+          <label for="name">Full Name</label>
+          <input type="text" name="name">
+
+          <label for="email">Email</label>
+          <input type="text" name="email">
+
+          <p>Are you an individual or organization</p>
+          <label for="ind">Individual</label>
+          <input type="radio" name="ind" value="Individual" required>
+          <label for="org">Organization</label>
+          <input type="radio" name="org" value="Organization" required>
+
+          <p>Select your subscription plan</p>
+          <label for="indi">Individual</label>
+          <input type="radio" name="indi" value="individual" required>
+          <label for="orga">Organization</label>
+          <input type="radio" name="orga" value="Organization" required>
+          <label for="gp">Gold plan</label>
+          <input type="radio" name="gp" value="Gold plan" required>
+
+          <button type="button" name="submit">Submit</button>
+          <button type="button" name="cancel">Cancel</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <footer>
+        <div class="footer">
+          <a href="#">Contact Us</a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </footer>
+    </section>
+
+
+  </body>
+</html>

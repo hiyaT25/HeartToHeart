@@ -1,0 +1,210 @@
+.navbar{
+  overflow: auto;
+  position: fixed;
+  background-color:white;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 100%;
+  z-index: 9999;
+}
+
+input{
+  display: block;
+  float: left;
+  margin: 7px 20px 7px 7px;
+  padding:5px 16px;
+  border-radius: 10px;
+}
+
+.searchIcon{
+  margin-top: 10px;
+  padding: 0;
+}
+
+.navbar a{
+  display: block;
+  border-radius: 10px;
+  float: left;
+  margin: 0 20px 0 0;
+  padding:14px 16px;
+  color: black;
+  font-size: 14px;
+  font-family: 'Noto Sans Mono', monospace;
+  text-decoration: none;
+  transition: border-radius, background-color 1s;
+}
+
+.button1{
+  height: 40px;
+}
+
+.button1 span{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.left{
+  float: right;
+  margin: 10px 20px;
+  padding: 0 20px;
+}
+
+a:hover{
+  color: black;
+  background-color: white ;
+  border-radius: 10px;
+}
+
+.navbar img{
+  width: 40px;
+  height: 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 500px;
+  width: 100% ;
+}
+.firstImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstImage h1{
+  font-size: 60px;
+  width: 450px;
+}
+
+.firstImage img{
+  height: 500px;
+  width: 800px;
+  overflow:auto;
+  margin: 0;
+  padding: 0;
+}
+
+.talking{
+  margin-top: 40px;
+}
+
+.talking h2{
+  font-family: 'EB Garamond', serif;
+  display: inline;
+  width: 100%;
+  text-align: center;
+  margin: 40px 20px;
+}
+.talking img{
+  margin: 30px 20px;
+  display: inline;
+  height: 400px;
+  width: 700px;
+  float: right;
+}
+
+.talking p{
+  margin: 30px 20px;
+  font-size: 20px;
+  line-height: 50px
+}
+
+.talking button{
+  background-color: #282085;
+  color: white;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+.self-defense{
+  margin-top: 40px;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.self-defense h2{
+  font-family: 'EB Garamond', serif;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.self-defense img{
+  margin: 30px 20px;
+  display: inline-block;
+  height: 400px;
+  width: 700px;
+  float: left;
+}
+
+.self-defense p{
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 40px 20px;
+  width: 700px;
+}
+
+.self-defense button{
+  display: block;
+  background-color: #282085;
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.other-activities  h2{
+  font-family: 'EB Garamond', serif;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  margin:30px 20px;
+}
+.other-activities img{
+  margin: 30px 20px;
+  display: inline-block;
+  height: 400px;
+  width: 700PX;
+  float: right;
+}
+
+.other-activities p{
+  margin: 30px 20px;
+  font-size: 20px;
+  line-height: 50px
+}
+
+.other-activities button{
+  background-color: #282085;
+  color: white;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+.btn{
+ text-decoration: none;
+ color: white;
+}
+
+.footer{
+  width: 100%;
+  display: block;
+  float: left;
+  background-color: #f0f0f0 ;
+
+}
+
+.footer a{
+  text-decoration: none;
+  float: right;
+  color: black;
+  margin: 10px 10px;
+}
